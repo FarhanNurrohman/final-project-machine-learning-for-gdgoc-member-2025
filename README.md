@@ -1,23 +1,21 @@
 # final-project-machine-learning-for-gdgoc-member-2025
 
-## 🌿 Final Project - Plant Disease Image Classification
+## 🌿 Final Project Machine Learning GDGoC Unesa - Plant Disease Image Classification
 
-Selamat datang di proyek akhir dari rangkaian pembelajaran **GDGoC Machine Learning Coreteam**!
-
-Proyek ini bertujuan untuk mengasah pemahaman kalian dalam membangun model klasifikasi citra menggunakan transfer learning, serta memahami alur kerja Machine Learning dari preprocessing hingga evaluasi model.
+Proyek ini bertujuan untuk mengasah pemahaman kalian dalam membangun model klasifikasi citra menggunakan model deep learning, serta memahami alur kerja Machine Learning dari preprocessing hingga evaluasi model.
 
 ---
 
 ## 📌 Deskripsi Proyek
 
-Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sakit** menggunakan dataset *PlantVillage*. Model ini akan mampu mengidentifikasi jenis penyakit pada daun dari gambar yang diberikan.
+Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sakit** menggunakan dataset *PlantVillage*, kemudian pilih salah satu jenis tanaman. Model ini akan mampu mengidentifikasi jenis penyakit pada daun dari gambar yang diberikan.
 
 ---
 
 ## 🎯 Tujuan Pembelajaran
 
 - Memahami alur kerja proyek machine learning end-to-end
-- Menggunakan **transfer learning** untuk klasifikasi gambar
+- Menggunakan **Deep Learning** untuk klasifikasi gambar
 - Mengimplementasikan augmentasi data dan evaluasi model
 - Membuat prediksi gambar baru menggunakan model yang dilatih
 - Men-deploy model sederhana (opsional)
@@ -36,8 +34,9 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
    - Lakukan augmentasi (flip, rotation, zoom, dsb.)
 
 3. **Modeling**
-   - Gunakan model pre-trained seperti `MobileNetV2`, `ResNet50`, atau `EfficientNet`
-   - Fine-tuning dan evaluasi dengan metrik akurasi dan confusion matrix
+   - Gunakan model Deep Learning dengan library seperti `Tensorflow`, `Keras`, `PyTourch`
+   - Diperbolehkan menggunakan model pre-trained seperti `MobileNetV2`, `ResNet50`, atau `EfficientNet`  tetapi harus di training ulang
+   - evaluasi dengan metrik akurasi dan confusion matrix
 
 4. **Prediksi**
    - Uji model dengan gambar baru
@@ -51,7 +50,7 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 ## 🧰 Teknologi yang Digunakan
 
 - Python (Jupyter Notebook / Google Colab)
-- TensorFlow atau PyTorch
+- TensorFlow, Keras, atau PyTorch
 - Scikit-Learn & Matplotlib
 - Kaggle Dataset: [PlantVillage](https://www.kaggle.com/datasets/emmarex/plantdisease)
 - (Opsional) Streamlit atau Gradio untuk demo
@@ -80,6 +79,7 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 
 - [Kaggle PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)
 - [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- [Image Classification with TensorFlow](https://www.tensorflow.org/tutorials/images/classification)
 - [Streamlit Docs](https://docs.streamlit.io/)
 - [Gradio Docs](https://www.gradio.app/guides)
 
