@@ -58,17 +58,18 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 ---
 
 ## 📁 Struktur Folder yang Direkomendasikan
-   ├── dataset/ /n
-   │ └── Tomato/...
-   ├── notebooks/
-   │ └── EDA.ipynb
-   │ └── training.ipynb
-   ├── model/
-   │ └── final_model.keras/.h5
-   ├── app/
-   │ └── streamlit_app.py (opsional)
-   ├── README.md
-
+```
+├── dataset/ /n
+│ └── Tomato/...
+├── notebooks/
+│ └── EDA.ipynb
+│ └── training.ipynb
+├── model/
+│ └── final_model.keras/.h5
+├── app/
+│ └── streamlit_app.py (opsional)
+├── README.md
+```
 ---
 
 ## ✅ Kriteria Penilaian
