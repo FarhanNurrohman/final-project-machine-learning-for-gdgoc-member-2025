@@ -59,7 +59,7 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 
 ## 📁 Struktur Folder yang Direkomendasikan
 ```
-├── dataset/ /n
+├── dataset/
 │ └── Tomato/...
 ├── notebooks/
 │ └── EDA.ipynb
