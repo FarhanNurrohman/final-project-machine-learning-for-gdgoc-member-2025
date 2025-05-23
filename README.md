@@ -57,7 +57,17 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 
 ---
 
-## 📁 Struktur Folder yang Direkomendasikan
+## 🔗 Referensi & Resources
+
+- [Kaggle PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)
+- [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)
+- [Image Classification with TensorFlow](https://www.tensorflow.org/tutorials/images/classification)
+- [Streamlit Docs](https://docs.streamlit.io/)
+- [Gradio Docs](https://www.gradio.app/guides)
+
+---
+
+## 📁 Struktur Folder yang diwajibkan
 ```
 ├── dataset/
 │ └── Tomato/...
@@ -66,7 +76,7 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 │ └── training.ipynb
 ├── model/
 │ └── final_model.keras/.h5
-├── app/
+├── app (optional)/
 │ └── streamlit_app.py (opsional)
 ├── README.md
 ```
@@ -77,22 +87,12 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 | Kriteria                        | Bobot | Keterangan |
 |--------------------------------|--------|------------|
 | Preprocessing & EDA            | 20%    | Pemahaman terhadap struktur dan kualitas data |
-| Implementasi Transfer Learning| 25%    | Penggunaan model pre-trained secara tepat |
+| Implementasi Deep Learning     | 25%    | Penggunaan model pre-trained secara tepat |
 | Evaluasi & Interpretasi Model  | 25%    | Akurasi, confusion matrix, klasifikasi yang benar |
 | Visualisasi / Deployment       | 20%    | Interface demo sederhana (Streamlit/Gradio) |
 | Struktur kode & dokumentasi    | 10%    | Rapi, jelas, dan dapat dijalankan ulang |
 
 **Total Nilai: 100%**
-
----
-
-## 🔗 Referensi & Resources
-
-- [Kaggle PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease)
-- [TensorFlow Transfer Learning Guide](https://www.tensorflow.org/tutorials/images/transfer_learning)
-- [Image Classification with TensorFlow](https://www.tensorflow.org/tutorials/images/classification)
-- [Streamlit Docs](https://docs.streamlit.io/)
-- [Gradio Docs](https://www.gradio.app/guides)
 
 ---
 
