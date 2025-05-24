@@ -72,10 +72,9 @@ Kamu diminta untuk membangun sebuah **model klasifikasi gambar daun sehat dan sa
 ├── dataset/
 │ └── Tomato/...
 ├── notebooks/
-│ └── EDA.ipynb
-│ └── training.ipynb
+│ └── notebook.ipynb
 ├── model/
-│ └── final_model.keras/.h5
+│ └── final_model.(keras/h5)
 ├── app (optional)/
 │ └── streamlit_app.py (opsional)
 ├── README.md
